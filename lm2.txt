@@ -1,0 +1,101 @@
+
+Iterations = 1001:6995
+Thinning interval = 6 
+Number of chains = 1 
+Sample size per chain = 1000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                         Mean SD Naive SE Time-series SE
+(Intercept)        -2.536e+00  0        0              0
+age                 1.127e-04  0        0              0
+jobblue-collar     -3.099e-01  0        0              0
+jobentrepreneur    -3.571e-01  0        0              0
+jobhousemaid       -5.040e-01  0        0              0
+jobmanagement      -1.653e-01  0        0              0
+jobretired          2.524e-01  0        0              0
+jobself-employed   -2.983e-01  0        0              0
+jobservices        -2.238e-01  0        0              0
+jobstudent          3.821e-01  0        0              0
+jobtechnician      -1.760e-01  0        0              0
+jobunemployed      -1.767e-01  0        0              0
+jobunknown         -3.133e-01  0        0              0
+maritalmarried     -1.795e-01  0        0              0
+maritalsingle       9.250e-02  0        0              0
+educationsecondary  1.835e-01  0        0              0
+educationtertiary   3.789e-01  0        0              0
+educationunknown    2.505e-01  0        0              0
+defaultyes         -1.668e-02  0        0              0
+balance             1.284e-05  0        0              0
+housingyes         -6.754e-01  0        0              0
+loanyes            -4.254e-01  0        0              0
+contacttelephone   -1.634e-01  0        0              0
+contactunknown     -1.623e+00  0        0              0
+day                 9.969e-03  0        0              0
+monthaug           -6.939e-01  0        0              0
+monthdec            6.911e-01  0        0              0
+monthfeb           -1.473e-01  0        0              0
+monthjan           -1.262e+00  0        0              0
+monthjul           -8.308e-01  0        0              0
+monthjun            4.536e-01  0        0              0
+monthmar            1.590e+00  0        0              0
+monthmay           -3.991e-01  0        0              0
+monthnov           -8.734e-01  0        0              0
+monthoct            8.814e-01  0        0              0
+monthsep            8.741e-01  0        0              0
+duration            4.194e-03  0        0              0
+campaign           -9.078e-02  0        0              0
+pdays              -1.027e-04  0        0              0
+previous            1.015e-02  0        0              0
+poutcomeother       2.035e-01  0        0              0
+poutcomesuccess     2.291e+00  0        0              0
+poutcomeunknown    -9.179e-02  0        0              0
+
+2. Quantiles for each variable:
+
+                         2.5%        25%        50%        75%      97.5%
+(Intercept)        -2.536e+00 -2.536e+00 -2.536e+00 -2.536e+00 -2.536e+00
+age                 1.127e-04  1.127e-04  1.127e-04  1.127e-04  1.127e-04
+jobblue-collar     -3.099e-01 -3.099e-01 -3.099e-01 -3.099e-01 -3.099e-01
+jobentrepreneur    -3.571e-01 -3.571e-01 -3.571e-01 -3.571e-01 -3.571e-01
+jobhousemaid       -5.040e-01 -5.040e-01 -5.040e-01 -5.040e-01 -5.040e-01
+jobmanagement      -1.653e-01 -1.653e-01 -1.653e-01 -1.653e-01 -1.653e-01
+jobretired          2.524e-01  2.524e-01  2.524e-01  2.524e-01  2.524e-01
+jobself-employed   -2.983e-01 -2.983e-01 -2.983e-01 -2.983e-01 -2.983e-01
+jobservices        -2.238e-01 -2.238e-01 -2.238e-01 -2.238e-01 -2.238e-01
+jobstudent          3.821e-01  3.821e-01  3.821e-01  3.821e-01  3.821e-01
+jobtechnician      -1.760e-01 -1.760e-01 -1.760e-01 -1.760e-01 -1.760e-01
+jobunemployed      -1.767e-01 -1.767e-01 -1.767e-01 -1.767e-01 -1.767e-01
+jobunknown         -3.133e-01 -3.133e-01 -3.133e-01 -3.133e-01 -3.133e-01
+maritalmarried     -1.795e-01 -1.795e-01 -1.795e-01 -1.795e-01 -1.795e-01
+maritalsingle       9.250e-02  9.250e-02  9.250e-02  9.250e-02  9.250e-02
+educationsecondary  1.835e-01  1.835e-01  1.835e-01  1.835e-01  1.835e-01
+educationtertiary   3.789e-01  3.789e-01  3.789e-01  3.789e-01  3.789e-01
+educationunknown    2.505e-01  2.505e-01  2.505e-01  2.505e-01  2.505e-01
+defaultyes         -1.668e-02 -1.668e-02 -1.668e-02 -1.668e-02 -1.668e-02
+balance             1.284e-05  1.284e-05  1.284e-05  1.284e-05  1.284e-05
+housingyes         -6.754e-01 -6.754e-01 -6.754e-01 -6.754e-01 -6.754e-01
+loanyes            -4.254e-01 -4.254e-01 -4.254e-01 -4.254e-01 -4.254e-01
+contacttelephone   -1.634e-01 -1.634e-01 -1.634e-01 -1.634e-01 -1.634e-01
+contactunknown     -1.623e+00 -1.623e+00 -1.623e+00 -1.623e+00 -1.623e+00
+day                 9.969e-03  9.969e-03  9.969e-03  9.969e-03  9.969e-03
+monthaug           -6.939e-01 -6.939e-01 -6.939e-01 -6.939e-01 -6.939e-01
+monthdec            6.911e-01  6.911e-01  6.911e-01  6.911e-01  6.911e-01
+monthfeb           -1.473e-01 -1.473e-01 -1.473e-01 -1.473e-01 -1.473e-01
+monthjan           -1.262e+00 -1.262e+00 -1.262e+00 -1.262e+00 -1.262e+00
+monthjul           -8.308e-01 -8.308e-01 -8.308e-01 -8.308e-01 -8.308e-01
+monthjun            4.536e-01  4.536e-01  4.536e-01  4.536e-01  4.536e-01
+monthmar            1.590e+00  1.590e+00  1.590e+00  1.590e+00  1.590e+00
+monthmay           -3.991e-01 -3.991e-01 -3.991e-01 -3.991e-01 -3.991e-01
+monthnov           -8.734e-01 -8.734e-01 -8.734e-01 -8.734e-01 -8.734e-01
+monthoct            8.814e-01  8.814e-01  8.814e-01  8.814e-01  8.814e-01
+monthsep            8.741e-01  8.741e-01  8.741e-01  8.741e-01  8.741e-01
+duration            4.194e-03  4.194e-03  4.194e-03  4.194e-03  4.194e-03
+campaign           -9.078e-02 -9.078e-02 -9.078e-02 -9.078e-02 -9.078e-02
+pdays              -1.027e-04 -1.027e-04 -1.027e-04 -1.027e-04 -1.027e-04
+previous            1.015e-02  1.015e-02  1.015e-02  1.015e-02  1.015e-02
+poutcomeother       2.035e-01  2.035e-01  2.035e-01  2.035e-01  2.035e-01
+poutcomesuccess     2.291e+00  2.291e+00  2.291e+00  2.291e+00  2.291e+00
+poutcomeunknown    -9.179e-02 -9.179e-02 -9.179e-02 -9.179e-02 -9.179e-02
+
